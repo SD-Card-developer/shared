@@ -1,6 +1,6 @@
 from unicodedata import *
 from easyclassfy import Model
-
+asdfghjkl='asdfghjkl'
 badwords=[
     'sex', 'your mom', '늑음마', '느금', '느그마', '느금마', '시발', 'ㅈㄴ',
     '좆나', '존나', '좋나', '암컷타락', '딸친다', '딸치', '딸딸이', '노알라',
@@ -96,3 +96,4 @@ def cutting(word):
         else:
             is_bad=False
     return is_bad
+
